@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" context-type="width=device-width initial-scale=1">
+  <title>Event Registration | Central Plains Coaster Club</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117545303-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117545303-1');
+</script>
+</head>
+<body>
+  <header>
+    <a href="https://centralplainscoasterclub.com"><img src="../images/logo.png" class="nav-logo"></a>
+  </header>
+  <nav>
+    <ul>
+      <a href="#"><li class="li-notsel">Home</li></a>
+      <a href="../events.html"><li class="li-sel">Events</li></a>
+      <a href="../discounts.html"><li class="li-notsel">Park Discounts</li></a>
+      <a href="#"><li class="li-notsel">Store</li></a>
+      <a href="../about.html"><li class="li-notsel">About</li></a>
+    </ul>
+  </nav>
+  <section class="dropshadow content-padding" id="registration">
+    <div>
+      <h1>Event Registration</h1>
+      <h3 style="color: #2E4053;">Event<span class="red">*</span></h3>
+    <form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScpRet7a8Zs4bRCNyHYlSmU0Vd2IHm5dH7u9vYf8tkAcEbGTw/formResponse">
+      <select style="width:70%;" id="register" name="entry.1994335699" required>
+        <option class="gray" selected="" disabled="">Choose</option>
+        <option value="Motoring Monday">Motoring Monday</option>
+        <option value="Ride For a Cure Day 2018">Ride For a Cure Day 2018</option>
+    </select>
+      <hr style="width:40%; border-top: 2px solid #2E4053;">
+        <h3 style="color: #2E4053;">Email Address<span class="red">*</span></h3>
+        <input id="register" style="width:70%;" name="entry.410542929" type="email" placeholder="Valid Email Address" required>
+        <h3 style="color: #2E4053; padding-top:2rem;">Name<span class="red">*</span></h3>
+        <input id="register" style="width:70%;" name="entry.856823194" type="text" placeholder="First and Last Name" required>
+        <h3 style="color:#2E4053; padding-top:2rem;">Guests<!--<span style="color:gray; font-size:.75rem;"><i>(Seperated by commas)</i></span>--></h3>
+        <input id="register" style="width:70%;" name="entry.647575979" type="text" placeholder="Additional Guests separated by commas">
+        <br>
+        <br>
+        <input type="checkbox" required><label>I have read and agree to the <a style="text-decoration:underline;" target="_blank" href="">Terms & Conditions</a>.</label>
+        <br>
+        <input style="margin-bottom:1rem;"class="submit" name="Submit" type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+</body>
+<footer>
+  <div class="footer">
+    © 2018 Central Plains Coaster Club | All rights reserved.
+  </div>
+</footer>
+</html>
