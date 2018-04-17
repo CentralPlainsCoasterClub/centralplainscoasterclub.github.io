@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" context-type="width=device-width initial-scale=1">
+  <title>Events | Central Plains Coaster Club</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117545303-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117545303-1');
+</script>
+</head>
+<body>
+  <header>
+    <a href="https://centralplainscoasterclub.com"><img src="images/logo.png" class="nav-logo"></a>
+  </header>
+  <nav>
+    <ul>
+      <a href="#"><li class="li-notsel">Home</li></a>
+      <a href="events.html"><li class="li-sel">Events</li></a>
+      <a href="discounts.html"><li class="li-notsel">Park Discounts</li></a>
+      <a href="#"><li class="li-notsel">Store</li></a>
+      <a href="about.html"><li class="li-notsel">About</li></a>
+    </ul>
+  </nav>
+  <section id="events-table">
+    <table style="border: 0px solid black; border-collapse: collapse;" class="events dropshadow">
+      <tbody>
+        <tr onclick="location.href='/events/motoringmonday.html'" onMouseOver="this.style.cursor='pointer'" class="event-expand">
+          <td style="text-align: center;" bgcolor="#F7F9F9" width="30px"><img src="images/events/thumb/mm_thumb.png" width="80%" alt=""></td>
+          <td style="text-align: left;" bgcolor="#F7F9F9" width="70px;"><h1 style="text-transform:uppercase;">Motoring Monday</h1><p>JUNE 11, 2018<br>CELEBRATION STATION, OKC</p></td>
+        </tr>
+        <tr onclick="location.href='/events/rideforacureday.html'" onMouseOver="this.style.cursor='pointer'" class="event-expand">
+          <td style="text-align: center;" bgcolor="#F7F9F9" width="30px"><img src="images/events/thumb/rfacd_thumb.png" width="80%" alt=""></td>
+          <td style="text-align: left;" bgcolor="#F7F9F9" width="70px;"><h1 style="text-transform:uppercase;">Ride For A Cure Day 2018</h1><p>JUNE 15, 2018<br>FRONTIER CITY THEME PARK</p></td>
+        </tr>
+        <tr onclick="location.href='/events/frozenfrontier.html'" onMouseOver="this.style.cursor='pointer'" class="event-expand">
+          <td style="text-align: center;" bgcolor="#E5E7E9" width="30px"><img src="images/events/thumb/ff_thumb.png" width="80%" alt=""></td>
+          <td style="text-align: left;" bgcolor="#E5E7E9" width="70px;"><h1 style="text-transform:uppercase;">Frozen Frontier</h1><p>FEBRUARY 3, 2018<br>FRONTIER CITY THEME PARK</p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+<footer>
+  <div class="footer">
+    © 2018 Central Plains Coaster Club | All rights reserved.
+  </div>
+</footer>
+</html>
