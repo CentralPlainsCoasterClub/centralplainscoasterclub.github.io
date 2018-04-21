@@ -281,6 +281,15 @@ tr.event-expand:hover {
   font-family: 'Poppins', sans-serif;
 }
 
+.submit-yellow{
+  padding: 1rem;
+  background-color: #ffd780;
+  width: 30%;
+  font-weight: bold;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
 .gaussian{
   filter:blur(7px);
   -webkit-filter:blur(7px);
@@ -293,4 +302,67 @@ tr.event-expand:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero{
+  width: 99%;
+}
+
+.text-box {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.text-box:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fc-grad{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  height: 2rem;
+  margin-top: -1rem;
+  background-image: -webkit-linear-gradient(down, #f00044, #ffc818); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(down, #f00044, #ffc818); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(down, #f00044, #ffc818); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(down, #f00044, #ffc818); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to bottom, #f00044, #ffc818); /* Standard syntax; must be last */
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#button_1_of_3_yellow {
+  background-color:#ffd780;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+#button_1_of_3_yellow:hover {
+  background-color: #ffb648;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
 }
