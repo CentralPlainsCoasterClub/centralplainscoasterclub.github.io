@@ -366,3 +366,12 @@ tr.event-expand:hover {
   transition: all 200ms ease-in;
   transform: scale(1.1);
 }
+
+.gray-hover:hover{
+  background-color: #b8b5b9;
+}
+
+.gray-hover{
+  transition: background-color 0.5s ease;
+  background-color: #e5e7e9;
+}
